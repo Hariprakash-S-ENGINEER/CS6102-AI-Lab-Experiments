@@ -1,0 +1,4 @@
+Customer 1
+Customer Name : Arun
+Units         : 350.0
+Bill Amount   : Rs. 1000.0

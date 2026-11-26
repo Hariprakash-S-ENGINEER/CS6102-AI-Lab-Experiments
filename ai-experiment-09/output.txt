@@ -1,0 +1,26 @@
+----- RETAIL SALES DATASET -----
+      Date Product    Category Region  Units_Sold  Unit_Price  Revenue
+2026-01-05  Laptop Electronics  North           3       52000   156000
+2026-01-12   Phone Electronics  South           8       18000   144000
+2026-01-18   Chair   Furniture   East           6        3500    21000
+2026-01-24    Desk   Furniture   West           4        7200    28800
+2026-02-03  Laptop Electronics   East           2       52000   104000
+
+Total Units Sold: 26
+Total Revenue: Rs. 407800
+
+----- MONTHLY REVENUE -----
+2026-01    349800
+2026-02    158000
+
+----- CATEGORY-WISE REVENUE -----
+Electronics    458000
+Furniture       49800
+
+----- REGION-WISE REVENUE -----
+East     125000
+North    156000
+South    198000
+West      28800
+
+Charts saved: monthly_revenue.png, category_revenue.png, region_revenue.png, units_vs_revenue.png

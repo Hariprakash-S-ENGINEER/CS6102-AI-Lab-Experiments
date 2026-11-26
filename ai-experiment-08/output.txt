@@ -1,0 +1,35 @@
+----- ORIGINAL DATASET -----
+Student_ID  Name Department  Attendance_Percentage  Assignment_Score  Exam_Score
+      S101 Aarav        CSE                   92.0              88.0          91
+      S102  Diya        ECE                   85.0              76.0          82
+      S103 Kavin        CSE                   78.0              81.0          79
+      S104 Meera        IT                   96.0              93.0          95
+      S105 Arjun        ECE                    NaN              72.0          75
+
+Dataset Shape: (7, 6)
+
+----- MISSING VALUES -----
+Student_ID               0
+Name                     0
+Department               0
+Attendance_Percentage    1
+Assignment_Score         1
+Exam_Score               0
+
+Duplicate Records: 1
+
+Cleaned Dataset Shape: (6, 8)
+
+Department-wise average exam score:
+Department
+CSE    85.33
+ECE    78.50
+IT     95.00
+
+Performance distribution:
+Needs Improvement    0
+Average              0
+Good                 4
+Excellent            2
+
+Charts saved: department_average.png, performance_distribution.png

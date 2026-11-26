@@ -1,0 +1,34 @@
+--- Original Dataset ---
+   Name Department  Attendance  Mark
+ Anitha        CSE        92.0  86.0
+   Bala        CSE        85.0  91.0
+ Chitra        ECE         NaN  78.0
+ Dinesh        CSE        88.0   NaN
+  Ezhil        ECE        95.0  95.0
+Fathima        CSE        90.0  82.0
+
+Missing Values:
+Name          0
+Department    0
+Attendance    1
+Mark          1
+
+--- Cleaned Dataset ---
+   Name Department  Attendance  Mark
+ Anitha        CSE        92.0  86.0
+   Bala        CSE        85.0  91.0
+ Chitra        ECE        90.0  78.0
+ Dinesh        CSE        88.0  86.4
+  Ezhil        ECE        95.0  95.0
+Fathima        CSE        90.0  82.0
+
+--- Department-wise Average Marks ---
+Department
+CSE    86.35
+ECE    86.50
+
+--- EDA Summary ---
+Highest Mark : 95.0
+Lowest Mark : 78.0
+Average Mark : 86.4
+Average Attendance : 90.0
